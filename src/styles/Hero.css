@@ -1,0 +1,41 @@
+.carousel{
+    width:100%;
+    height:100vh;
+}
+
+.teamPhoto{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+}
+
+.heroText{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroText h1{
+    font-family: "LexendBold";
+    font-size: 5vw;
+    color:#FFFFFF;
+}
+
+.heroText p{
+    font-family: "ManropeSemiBold";
+    font-size: 2vw;
+    color:#FFFFFF;
+}
+
+
+@font-face {
+    font-family: LexendBold;
+    src: url(../fonts/Lexend/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: ManropeSemiBold;
+    src:url(../fonts/Manrope/Manrope-SemiBold.ttf);
+}
